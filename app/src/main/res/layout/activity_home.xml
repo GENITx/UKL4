@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_home">
+
+    <TextView
+        android:id="@+id/tampilEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+        android:layout_marginVertical="8dp"
+        android:textStyle="bold"
+        tools:text="tampilEmail"
+        android:textSize="19sp"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/tampilEmail"
+        android:id="@+id/rv_tim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_row_tim"
+        android:layout_marginVertical="@dimen/activity_vertical_margin"/>
+
+</RelativeLayout>

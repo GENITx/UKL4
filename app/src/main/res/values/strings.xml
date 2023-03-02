@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UKL 4</string>
+    <string name="Club_name">Nama Tim</string>
+    <string name="desk">Deskripsi</string>
+    <string name="trofi">Trofi</string>
+    <string name="favorite">Favorite</string>
+    <string name="list_view">List View</string>
+    <string name="card_view">Card View</string>
+</resources>
