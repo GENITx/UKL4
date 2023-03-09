@@ -4,6 +4,6 @@
     <string name="desk">Deskripsi</string>
     <string name="trofi">Trofi</string>
     <string name="favorite">Favorite</string>
-    <string name="list_view">List View</string>
-    <string name="card_view">Card View</string>
+    <string name="list_view">List</string>
+    <string name="card_view">Card</string>
 </resources>
